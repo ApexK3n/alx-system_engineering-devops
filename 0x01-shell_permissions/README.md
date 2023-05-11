@@ -4,7 +4,7 @@
 su betty 
 1. Who am I
 #!/bin/bash
-id -un
+whoami
 2. Groups
 #!/bin/bash
 groups
@@ -34,7 +34,7 @@ chmod 753 hello
 chmod --reference=olleh hello
 11. Directories
 #!/bin/bash
-chmod -R ugo+X
+chmod -R +X .
 12. More directories
 #!/bin/bash
 mkdir -m 751 my_dir
@@ -46,7 +46,7 @@ chgrp school hello
 chown -hR vincent:staff .
 15. Symbolic links
 #!/bin/bash
-chown -h vincent:staff_hello
+chown -h vincent:staff _hello
 16. If only
 #!/bin/bash
 chown --from=guillaume betty hello
