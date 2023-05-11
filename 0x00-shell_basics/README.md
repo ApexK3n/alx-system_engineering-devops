@@ -52,7 +52,7 @@ ln -s /bin/ls __ls__
 
 14-copy_html
 #!/bin/bash
-cp -u *.htm ..
+cp -un *.html ../
 
 100-lets_move
 #!/bin/bash
